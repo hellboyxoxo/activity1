@@ -3,7 +3,6 @@
 int sum(int *,int *);
 int sub(int *,int *);
 int mul(int *,int *);
-int div(int *,int *);
 
 int main()
 {
@@ -16,6 +15,7 @@ q=&b;
 printf("sum = %d",sum(p,q));
 printf("difference = %d",sub(p,q));
 printf("product = %d",mul(p,q));
+return 0;
 }
 
 int sum(int *p,int *q)
